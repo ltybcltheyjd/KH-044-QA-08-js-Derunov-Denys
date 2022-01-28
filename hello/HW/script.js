@@ -135,7 +135,7 @@ const mathFunc = {
 
 function start() {
     let func;
-    while (func != '' || func == null || isNaN(func)) {
+    while (func == '' || func == null || isNaN(func)) {
         func = +prompt('Select an operation:\n1.Divide 2 fractional numbers\n2.Volume of Cylinder\n' + 
         '3.Convert hex to decimal\n4.Increment/Decrement\n5.Quad Equation', "");
     }
