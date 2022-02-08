@@ -24,7 +24,6 @@ const mathFunc = {
                         firstD = +firstFraction[1];
                     }
                 }
-
             }  
         let sFraction = prompt('Enter second fraction number\ne.g.(4/8 or integer)', '');
             if (sFraction == ''){
