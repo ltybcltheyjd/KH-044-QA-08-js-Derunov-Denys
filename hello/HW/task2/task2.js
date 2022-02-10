@@ -1,3 +1,4 @@
+"use strict";
 // Родительский класс для всех животных
 class Animal {
     constructor(name, age, childs = null) {
